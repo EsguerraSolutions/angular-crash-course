@@ -1,4 +1,6 @@
-const TASKS = [
+import {Task} from './Task';
+
+export const TASKS: Task[] = [
     {
         id : 1,
         text : 'Doctors Appointment',
@@ -18,5 +20,3 @@ const TASKS = [
         reminder : false
     }
 ];
-
-export default mock-tasks
